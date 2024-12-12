@@ -1,0 +1,23 @@
+{
+  "name": "desktop-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2",
+    "vite": "^6.0.3"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
+}
