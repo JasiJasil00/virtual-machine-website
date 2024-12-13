@@ -366,7 +366,7 @@ button:hover {
 }
 
 .card:hover {
-  transform: translateY(-150px);
+  transform: translateY(-5vw);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -517,8 +517,8 @@ button:hover {
   align-items: center;
   width: 3.365vw; /* Width of the circle */
   height: 3.365vw; /* Height of the circle */
-  top: 0.594vw;
-  left: 14.819vw;
+  top: 0.494vw;
+  left: 13.819vw;
   background: linear-gradient(90deg, #2aa9df 0%, #df00bc 100%);
   border-radius: 50%;
 }

@@ -14,8 +14,8 @@ export default function Frame4(){
                 onePixel="Reality "
                 para="The Future of Virtual Reality: Where Pixels Dream. In the not-so-distant future, pixels will transcend screens. They’ll escape their two-dimensional confines and leap into our reality, dancing with our senses."
                 />
-                <img className="specksgirl" src="/public/images/specksgirl.png"/>
-                <img className="speckgirlback" src="/public/images/specsgirlback.jpg"/>
+                <img className="specksgirl" src="/images/specksgirl.png"/>
+                <img className="speckgirlback" src="/images/specsgirlback.jpg"/>
             </div>
         </section>
     );

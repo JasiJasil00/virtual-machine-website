@@ -5,11 +5,11 @@ export default function frame3 (){
         <section id="#Services">
             <div className="frame3">
                     <div className="first">
-                        <img className="firstimposter" src="/public/images/first imposter.jpg"/>
+                        <img className="firstimposter" src="/images/first imposter.jpg"/>
                         
-                        <img className="secondimposter" src="/public/images/second imposter.png"/>
+                        <img className="secondimposter" src="/images/second imposter.png"/>
                         
-                        <img className="thirdimposter" src="/public/images/thirdimposter.jpg"/>
+                        <img className="thirdimposter" src="/images/thirdimposter.jpg"/>
                         
                     </div> 
                     <Card class="firstcard"
