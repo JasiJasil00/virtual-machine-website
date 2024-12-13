@@ -3,16 +3,17 @@ import Play from "./play";
 export default function Card(props) {
     const cardStyle = props.customStyle ? props.customStyle : {};
   return (
-    <div className="cardframe" >
-      <h1 className="heading" >
-        <span className="explore">{props.explore}</span>
-        <span className="one-pixel">
+    <div className="cardframe1" >
+      <h1 className="heading1" >
+        <span className="explore1">{props.explore}
+        </span>
+        <span className="one-pixel1">
           {props.onePixel}
-          <span className="whitespace"> . . . </span>
+          <span className="whitespace1"> . . . </span>
         </span>
       </h1>
-      <p className="para">{props.para}</p>
-      <div className="ending">
+      <p className="para1">{props.para}</p>
+      <div className="ending1">
         <button>
           <h3>Play Now</h3>
         </button>

@@ -16,6 +16,7 @@ export default function frame3 (){
                         explore="Explore in the metaverse"
                         onePixel="one pixel at a time"
                         para="The Future of Virtual Reality: Where Pixels Dream. In the not-so-distant future, pixels will transcend screens. They’ll escape their two-dimensional confines and leap into our reality, dancing with our senses."
+                        
                     />
             </div>
         </section>

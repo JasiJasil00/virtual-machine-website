@@ -27,6 +27,7 @@ h1 {
   border: 0px;
 }
 .frame1 {
+  width: 99.1vw;
   overflow: hidden;
 }
 #home {
@@ -62,6 +63,13 @@ h1 {
   width: 100%;
   z-index: 20;
 }
+.frame1{
+  overflow: hidden;
+}
+.rectp{
+  overflow: hidden;
+}
+
 .box1 {
   background-color: #d9d9d90d;
   box-shadow: -5.39vw 5.39vw 5.39vw 0px rgba(255, 255, 255, 0.1) inset,
@@ -213,7 +221,7 @@ ul {
 }
 .rectp {
   position: absolute;
-  width: 100vw; /* Ensure full viewport width */
+  width: 99.7vw; /* Ensure full viewport width */
   height: 20.836vw;
   top: 51.911vw;
   left: 0;
@@ -358,7 +366,7 @@ button:hover {
 }
 
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-150px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -383,7 +391,7 @@ button:hover {
   width: Hug (93.368vw) vw;
   height: Hug (28.712vw) vw;
   top: 124.801vw;
-  left: 4.9vw;
+  left: 3.9vw;
   gap: 6.945vw;
   opacity: 0vw;
   display: flex;
@@ -562,6 +570,184 @@ button:hover {
   border-radius: 6.444vw 0px 0px 0px;
   opacity: 0px;
   box-shadow: 1.79vw 1.79vw 2.148vw 0px #1c083fe5;
+}
+.framet {
+  position: absolute;
+  width: 94.8vw;
+  height: 36.016vw;
+  top: 167.834vw;
+  left: 3.2vw;
+  gap: 1.074vw;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.secondcard {
+  position: absolute;
+  width: 48.761vw;
+  height: 23.414vw;
+  gap: 1.647vw;
+  opacity: 0px;
+}
+.heading1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.specksgirl {
+  position: absolute;
+  width: 51.41vw;
+  height: 36.016vw;
+  left: 49.835vw;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 10;
+}
+
+.speckgirlback {
+  position: absolute;
+  width: 40.813vw;
+  height: 34.011vw;
+  top: 1.933vw;
+  left: 53.987vw;
+  gap: 0px;
+  border-radius: 14.32vw 0px 0px 0px;
+  opacity: 0px;
+  z-index: 5;
+  backdrop-filter: blur(0.4296083927154541vw);
+  box-shadow: -1.432vw 1.432vw 2.148vw 0.358vw #9747ff42;
+  opacity: 0.6;
+}
+.heading1 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 45.538vw;
+  height: 4.654vw;
+  left: -0.931vw;
+  gap: 0px;
+  opacity: 0px;
+
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.cardframe1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 48.761vw;
+  height: 23.414vw;
+  gap: 1.647vw;
+  opacity: 0px;
+  text-align: center;
+}
+.cardframe1 .heading1 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 45.538vw;
+  height: 4.654vw;
+  left: -0.931vw;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  margin-top: 5vw;
+}
+.explore1{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.654vw;
+  font-weight: 500;
+  line-height: 4.654vw;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: linear-gradient(91.98deg, #0cfadf 5.64%, #df00bc 82.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+.whitespace1 {
+  display: flex;
+  flex: left;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.582vw;
+  font-weight: 400;
+  line-height: 4.582vw;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  white-space: pre; /* Preserves spaces and dots */
+}
+.one-pixel1 {
+  display: flex;
+  flex: left;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.654vw;
+  font-weight: 400;
+  line-height: 4.654vw;
+  margin-left: 1vw;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.para1 {
+  position: absolute;
+  font-family: Poppins;
+  font-size: 1.718vw;
+  font-weight: 400;
+  line-height: 2.578vw;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  width: 38.689vw;
+  height: 11.456vw;
+  top: 5.728vw;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 7vw;
+}
+.cardframe1 .ending1 {
+  position: absolute;
+  width: Hug (17.041vw) vw;
+  height: Hug (4.296vw) vw;
+  top: 24.416vw;
+  gap: 2.148vw;
+  opacity: 0px;
+  margin-top: 2vw;
+}
+.cardframe1 .ending1 button {
+  width: Hug (11.612) vw;
+  height: Hug (4.248px) vw;
+  border-radius: 3.652vw 3.652vw 3.652vw 3.652vw;
+  background: linear-gradient(91.98deg, #0cfadf 5.64%, #df00bc 82.78%);
+  backdrop-filter: blur(0.716vw);
+  opacity: 1;
+}
+.cardframe1 .ending1 button h3 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.432vw;
+  line-height: 2.148vw;
+  background: linear-gradient(91.98deg, #0cfadf 5.64%, #df00bc 82.78%);
+  width: Hug (11.712vw) vw;
+  height: Hug (4.248vw) vw;
+  padding: 1.074vw 2.506vw 1.074vw 2.506vw;
+  gap: 0.716vw;
+  border-radius: 3.652vw 3.652vw 3.652vw 3.652vw;
+  opacity: 0vw;
+  margin: 0vw;
 }
 /*.grid-pattern {
     animation: moveGrid 15s linear infinite;
