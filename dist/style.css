@@ -63,10 +63,10 @@ h1 {
   width: 100%;
   z-index: 20;
 }
-.frame1{
+.frame1 {
   overflow: hidden;
 }
-.rectp{
+.rectp {
   overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ ul {
   left: 33.08vw;
   padding-top: 3.5vw;
   gap: 0vw;
-  border-radius: 3.58vw 0px 0px 0px;
+  border-radius: 3.58vw 3.58vw 3.58vw 3.58vw;
   border: 0.0716vw 0px 0px 0px;
   opacity: 0px;
 }
@@ -517,8 +517,8 @@ button:hover {
   align-items: center;
   width: 3.365vw; /* Width of the circle */
   height: 3.365vw; /* Height of the circle */
-  top: 0.594vw;
-  left: 14.819vw;
+  top: 0.494vw;
+  left: 13.819vw;
   background: linear-gradient(90deg, #2aa9df 0%, #df00bc 100%);
   border-radius: 50%;
 }
@@ -574,9 +574,9 @@ button:hover {
 .framet {
   position: absolute;
   width: 94.8vw;
-  height: 36.016vw;
+  height: 40.016vw;
   top: 167.834vw;
-  left: 3.2vw;
+  left: 2.2vw;
   gap: 1.074vw;
   opacity: 0px;
   display: flex;
@@ -639,13 +639,15 @@ button:hover {
   padding: 0px;
   border: 0px;
 }
-.cardframe1{
+.cardframe1 {
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: left;
   width: 48.761vw;
   height: 23.414vw;
+  top: 1vw;
+  left: 1vw;
   gap: 1.647vw;
   opacity: 0px;
   text-align: center;
@@ -664,7 +666,7 @@ button:hover {
   border: 0px;
   margin-top: 5vw;
 }
-.explore1{
+.explore1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 4.654vw;
   font-weight: 500;
@@ -748,6 +750,272 @@ button:hover {
   border-radius: 3.652vw 3.652vw 3.652vw 3.652vw;
   opacity: 0vw;
   margin: 0vw;
+}
+.frame5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 71.901vw;
+  height: 29.241vw;
+  top: 218.169vw;
+  left: 15.8vw;
+  opacity: 0px;
+  border-radius: 2.506vw;
+  background: linear-gradient(180deg, #df00bc 0%, #2aa9df 100%);
+  box-shadow: 0 0 20px 10px rgba(47, 169, 223, 0.5),
+    /* Outer blue glow */ 0 0 20px 10px rgba(223, 0, 188, 0.5),
+    /* Outer pink glow */ inset 0 0 15px rgba(47, 169, 223, 0.4),
+    /* Inner blue glow */ inset 0 0 15px rgba(223, 0, 188, 0.4); /* Inner pink glow */
+  position: absolute;
+}
+.frame5inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 71.043vw;
+  height: 28.283vw;
+  border-radius: 2.506vw;
+  background-color: #0b0319;
+}
+.frame5head {
+  width: 44.388vw;
+  height: 0.406vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.506vw;
+  line-height: 2.506vw;
+  color: #ffffff;
+  margin-top: ;
+}
+.frame5content {
+  width: 53.057vw;
+  height: 8.664vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.79vw;
+  line-height: 1.79vw;
+  text-align: center;
+  color: #ffffff;
+}
+.frame5inner button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42.961vw;
+  height: 4.296vw;
+  gap: 0px;
+  border-radius: 37.95vw;
+  opacity: 0px;
+  background: linear-gradient(180deg, #2aa9df 0%, #df00bc 100%);
+}
+.frame5inner button h1 {
+  width: 12.745vw;
+  height: 2.148vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.148vw;
+  line-height: 2.148vw;
+  color: #ffffff;
+  font-style: normal;
+}
+.frame6 {
+  position: absolute;
+  width: 83.774vw;
+  height: 43.272vw;
+  top: 261.56vw;
+  left: 9.7vw;
+  padding: 0px 0px 1.43px 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #0b0319;
+}
+.navbar1 {
+  position: absolute;
+  width: 81.912vw;
+  height: Hug (2.792vw) vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  left: 0.215vw;
+  gap: 11.385vw;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw;
+  padding: 0px;
+  margin: 0px;
+}
+.cardframe3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: Fixed (55.921vw) vw;
+  height: 20.308vw vw;
+  top: 10.454vw;
+  left: 13.259vw;
+  gap: 4.224vw;
+  opacity: 0px;
+}
+.cardframe3head {
+  width: 25.633vw;
+  height: 2.506vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.864vw;
+  line-height: 2.864vw;
+  text-align: center;
+  color: #ffffff;
+}
+.cardframe3content {
+  width: 55.921vw;
+  height: 9.38vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.575vw;
+  line-height: 2.363vw;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+.cardframe3end {
+  width: 34.71vw;
+  height: 3.222vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardframe3end .playstore {
+  width: 12.96vw;
+  height: 3.222vw;
+  gap: 0px;
+  opacity: 0px;
+}
+.cardframe3end .appstore {
+  width: 14.75vw;
+  height: 3.222vw;
+  gap: 0px;
+  opacity: 0px;
+}
+.line {
+  position: absolute;
+  width: 81.912vw;
+  height: 0.286vw;
+  top: 38.164vw;
+  left: 0.215vw;
+  border-radius: 0.143vw;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(0deg);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 169, 223, 0.75) 0%,
+    rgba(223, 0, 188, 0.75) 100%
+  );
+}
+.navbar2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: Hug (25.347vw) vw;
+  height: Fixed (1.074vw) vw;
+  top: 40.025vw;
+  left: 0.286vw;
+  gap: 2.148vw;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif ;
+  font-size: 1.5vw;
+  margin: 0px;
+}
+.ellipsecontent {
+  position: absolute;
+  width: 20.693vw;
+  height: 0.788vw;
+  top: 40.24vw;
+  left: 38.6vw;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.074vw;
+  line-height: 1.074vw;
+}
+.ellipse3 {
+  position: absolute;
+  width: 1.862vw;
+  height: 1.862vw;
+  top: 39.89vw;
+  left: 36.087vw;
+  gap: 0px;
+}
+.ellipse4 {
+  position: absolute;
+  width: 1.002vw;
+  height: 1.002vw;
+  top: 40.299vw;
+  left: 36.517vw;
+  gap: 0px;
+}
+.navbar3 {
+  position: absolute;
+  width: 9.69vw;
+  height: 1.538vw;
+  top: 39.524vw;
+  left: 69.167vw;
+  padding: 0.051vw 0.41vw 0.051vw 0px;
+  gap: 1.563vw;
+  opacity: 0vw;
+  z-index: 10;
+}
+.instagram {
+  position: absolute;
+  width: 1.282vw;
+  height: 1.282vw;
+  top: 0.154vw;
+  left: 7.998vw;
+  gap: 0vw; /* Remains 0 since it’s zero */
+  opacity: 1; /* No change needed */
+}
+.facebook {
+  position: absolute;
+  width: 1.282vw;
+  height: 1.282vw;
+  top: 0.154vw;
+  left: 5.434vw;
+  gap: 0vw;
+  opacity: 1;
+}
+.youtube {
+  position: absolute;
+  width: 1.589vw;
+  height: 1.435vw;
+  top: 0.051vw;
+  left: 2.563vw;
+  gap: 0vw;
+  opacity: 1;
+}
+.twitter {
+  position: absolute;
+  width: 1.282vw;
+  height: 1.282vw;
+  top: 0.154vw;
+  left: 0vw;
+  gap: 0vw;
+  opacity: 1;
 }
 /*.grid-pattern {
     animation: moveGrid 15s linear infinite;
