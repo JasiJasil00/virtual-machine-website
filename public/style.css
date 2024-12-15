@@ -758,10 +758,10 @@ button:hover {
   opacity: 0px;
   border-radius: 2.506vw;
   background: linear-gradient(180deg, #df00bc 0%, #2aa9df 100%);
-  box-shadow: 0 0 20px 10px rgba(47, 169, 223, 0.5),
-    /* Outer blue glow */ 0 0 20px 10px rgba(223, 0, 188, 0.5),
-    /* Outer pink glow */ inset 0 0 15px rgba(47, 169, 223, 0.4),
-    /* Inner blue glow */ inset 0 0 15px rgba(223, 0, 188, 0.4); /* Inner pink glow */
+  box-shadow: 0 0 2vw 1vw rgba(47, 169, 223, 0.5),
+    /* Outer blue glow */ 0 0 2vw 1vw rgba(223, 0, 188, 0.5),
+    /* Outer pink glow */ inset 0 0 1.5vw rgba(47, 169, 223, 0.4),
+    /* Inner blue glow */ inset 0 0 1.5vw rgba(223, 0, 188, 0.4); /* Inner pink glow */
   position: absolute;
 }
 .frame5inner {
