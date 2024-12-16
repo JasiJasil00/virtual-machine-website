@@ -37,6 +37,9 @@ A web-based project that simulates a virtual machine environment. This project i
    http://localhost:3000
    ```
 
+### Deployment
+The application is live at: [Virtual Machine Website](https://chic-puppy-e04215.netlify.app/)
+
 ### Additional Information
 - For detailed usage, refer to the comments in the codebase.
 - Contributions are welcome! Feel free to submit a pull request.
